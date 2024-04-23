@@ -1,0 +1,23 @@
+{
+  "name": "martin-castro",
+  "version": "1.0.0",
+  "description": "pasando proyecto a sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinCastr0/preentrega3-castro.git"
+  },
+  "author": "martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinCastr0/preentrega3-castro/issues"
+  },
+  "homepage": "https://github.com/MartinCastr0/preentrega3-castro#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
